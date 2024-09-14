@@ -1,0 +1,56 @@
+name: moody
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  flutter_translate: ^4.1.0
+  syncfusion_flutter_sliders: ^26.2.14
+  syncfusion_flutter_datepicker: ^26.2.14
+  table_calendar: ^3.1.2
+  intl: ^0.19.0
+  fl_chart: ^0.69.0
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+
+
+  fonts:
+     - family: Nunito
+       fonts:
+         - asset: assets/fonts/Nunito-Regular.ttf
+
+
